@@ -15,6 +15,7 @@ from llama_index.postprocessor import (
     SentenceEmbeddingOptimizer,
     SentenceTransformerRerank,
     SimilarityPostprocessor,
+    TextEmbeddingsInferenceRerank,
     TimeWeightedPostprocessor,
 )
 
@@ -35,4 +36,5 @@ __all__ = [
     "MetadataReplacementPostProcessor",
     "LongContextReorder",
     "LongLLMLinguaPostprocessor",
+    "TextEmbeddingsInferenceRerank",
 ]
